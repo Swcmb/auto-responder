@@ -1,0 +1,11 @@
+{
+  "name": "auto-responder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "resend": "^1.0.0"
+  }
+}
