@@ -1,0 +1,10 @@
+name = "auto-responder"
+main = "src/index.js"
+compatibility_date = "2025-07-27"
+
+[vars]
+# Define your secrets via wrangler secret:set
+RESEND_API_KEY = ""
+GITHUB_TOKEN    = ""
+GITHUB_REPO     = "username/repo"  # format: owner/repo
+GITHUB_BRANCH   = "main"
